@@ -3,20 +3,21 @@
 | Field | Value |
 |---|---|
 | Title | BorderIQ Decision Engine |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Draft for review |
 | Owner | Jahnavi Ralhan |
 | Last updated | 2026-08-01 |
 | Scope | The semantics of a compliance investigation: the 16-stage lifecycle, the structured decision object, the status state machine, confidence dimensions, conflict resolution, abstention, replay, and scenario comparison. Persistence shapes live in [DATA_MODEL](DATA_MODEL.md); orchestration mechanics in [LLD](LLD.md) Section 10; tool contracts in [TOOL_CALLING](TOOL_CALLING.md). |
 | Related documents | [PRD](PRD.md), [LLD](LLD.md), [ARCHITECTURE](ARCHITECTURE.md), [DATA_MODEL](DATA_MODEL.md), [TOOL_CALLING](TOOL_CALLING.md), [API_SPEC](API_SPEC.md), [KNOWLEDGE_GRAPH](KNOWLEDGE_GRAPH.md), [SECURITY](SECURITY.md), [ROADMAP](ROADMAP.md), [AGENTS](AGENTS.md) |
 
-Status of everything in this document: Target architecture (Proposed, Phases 2 to 7 per [ROADMAP.md](ROADMAP.md)). The current MVP implements a reduced ancestor: single-shipment demo analysis with a client-side engine and a session-only trace, as documented in the [PRD](PRD.md) Section 17. Requirement anchors: FR-012 to FR-020, AIR-001 to AIR-008.
+Status of everything in this document: Target architecture (Proposed, Phases 2 to 7 per [ROADMAP.md](ROADMAP.md)). The current MVP implements a reduced ancestor: single-shipment server-side analysis (verified: catalogue resolution, deterministic calculation, supporting-regulation retrieval) with a session-only trace, as documented in the [PRD](PRD.md) Section 17. Requirement anchors: FR-012 to FR-020, AIR-001 to AIR-008.
 
 ## 1. Document Control
 
 | Version | Date | Author | Change |
 |---|---|---|---|
 | 1.0 | 2026-08-01 | Jahnavi Ralhan | Initial decision-engine specification against PRD v3.0, LLD v1.0, DATA_MODEL v1.0 |
+| 1.1 | 2026-08-01 | Jahnavi Ralhan | Current-MVP framing updated to verified server-side analysis |
 
 ## 2. Purpose and Position
 
